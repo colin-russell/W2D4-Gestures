@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1506D1208942490094BBAF /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1506D0208942490094BBAF /* TapViewController.m */; };
+		3B1506D420894F5E0094BBAF /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1506D320894F5E0094BBAF /* PinchViewController.m */; };
 		3BD9C0FB20893BCD0076273F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9C0FA20893BCD0076273F /* AppDelegate.m */; };
 		3BD9C10120893BCD0076273F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD9C0FF20893BCD0076273F /* Main.storyboard */; };
 		3BD9C10320893BCF0076273F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD9C10220893BCF0076273F /* Assets.xcassets */; };
 		3BD9C10620893BCF0076273F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD9C10420893BCF0076273F /* LaunchScreen.storyboard */; };
 		3BD9C10920893BCF0076273F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9C10820893BCF0076273F /* main.m */; };
+		3BD9C1132089419B0076273F /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9C1122089419B0076273F /* PanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B1506CF208942490094BBAF /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		3B1506D0208942490094BBAF /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		3B1506D220894F5E0094BBAF /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		3B1506D320894F5E0094BBAF /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 		3BD9C0F620893BCD0076273F /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD9C0F920893BCD0076273F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BD9C0FA20893BCD0076273F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -23,6 +30,8 @@
 		3BD9C10520893BCF0076273F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BD9C10720893BCF0076273F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BD9C10820893BCF0076273F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BD9C1112089419B0076273F /* PanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		3BD9C1122089419B0076273F /* PanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,22 +65,28 @@
 			isa = PBXGroup;
 			children = (
 				3BD9C0FF20893BCD0076273F /* Main.storyboard */,
-				3BD9C10720893BCF0076273F /* Info.plist */,
-				3BD9C10F20893C090076273F /* Supporting Files */,
+				3BD9C1112089419B0076273F /* PanViewController.h */,
+				3BD9C1122089419B0076273F /* PanViewController.m */,
+				3B1506CF208942490094BBAF /* TapViewController.h */,
+				3B1506D0208942490094BBAF /* TapViewController.m */,
+				3B1506D220894F5E0094BBAF /* PinchViewController.h */,
+				3B1506D320894F5E0094BBAF /* PinchViewController.m */,
+				3BD9C114208941B10076273F /* Supporting Files */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
 		};
-		3BD9C10F20893C090076273F /* Supporting Files */ = {
+		3BD9C114208941B10076273F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3BD9C10720893BCF0076273F /* Info.plist */,
 				3BD9C10420893BCF0076273F /* LaunchScreen.storyboard */,
 				3BD9C10820893BCF0076273F /* main.m */,
 				3BD9C0F920893BCD0076273F /* AppDelegate.h */,
 				3BD9C0FA20893BCD0076273F /* AppDelegate.m */,
 				3BD9C10220893BCF0076273F /* Assets.xcassets */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD9C1132089419B0076273F /* PanViewController.m in Sources */,
 				3BD9C10920893BCF0076273F /* main.m in Sources */,
+				3B1506D420894F5E0094BBAF /* PinchViewController.m in Sources */,
+				3B1506D1208942490094BBAF /* TapViewController.m in Sources */,
 				3BD9C0FB20893BCD0076273F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
