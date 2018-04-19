@@ -56,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				3BD9C0FF20893BCD0076273F /* Main.storyboard */,
+				3BD9C10720893BCF0076273F /* Info.plist */,
 				3BD9C10F20893C090076273F /* Supporting Files */,
 			);
 			path = Gestures;
@@ -66,7 +67,6 @@
 			children = (
 				3BD9C10420893BCF0076273F /* LaunchScreen.storyboard */,
 				3BD9C10820893BCF0076273F /* main.m */,
-				3BD9C10720893BCF0076273F /* Info.plist */,
 				3BD9C0F920893BCD0076273F /* AppDelegate.h */,
 				3BD9C0FA20893BCD0076273F /* AppDelegate.m */,
 				3BD9C10220893BCF0076273F /* Assets.xcassets */,
