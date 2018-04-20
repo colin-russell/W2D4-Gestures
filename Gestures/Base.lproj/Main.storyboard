@@ -23,11 +23,28 @@
                         <segue destination="Gli-kg-EDa" kind="relationship" relationship="viewControllers" id="lUu-Oq-Xq3"/>
                         <segue destination="mIR-xP-GNI" kind="relationship" relationship="viewControllers" id="aEk-7k-duW"/>
                         <segue destination="BFw-fo-jXB" kind="relationship" relationship="viewControllers" id="fto-Mg-ksD"/>
+                        <segue destination="cbJ-jZ-H96" kind="relationship" relationship="viewControllers" id="M7l-fe-8jw"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pp4-fE-2cJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1013" y="-192"/>
+        </scene>
+        <!--Swipe Scene-->
+        <scene sceneID="6W1-PQ-BPU">
+            <objects>
+                <viewController id="cbJ-jZ-H96" userLabel="Swipe Scene" customClass="SwipeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e6Y-E5-HwU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EPr-45-H8x"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Swipe" image="item4" id="ze9-vh-RFY" userLabel="Swipe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Rk-Qc-wUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6" y="-1057"/>
         </scene>
         <!--Pan-->
         <scene sceneID="pQe-TI-T3r">
@@ -59,7 +76,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="7" y="-815"/>
+            <point key="canvasLocation" x="6" y="-270"/>
         </scene>
         <!--Pinch-->
         <scene sceneID="CRa-23-Rhe">
@@ -75,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="id0-O2-pWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6" y="842"/>
+            <point key="canvasLocation" x="6" y="1219"/>
         </scene>
         <!--Tap-->
         <scene sceneID="jjn-9C-ewL">
@@ -91,12 +108,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N21-zN-kCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7" y="21"/>
+            <point key="canvasLocation" x="6" y="533"/>
         </scene>
     </scenes>
     <resources>
         <image name="item1" width="30" height="30"/>
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
+        <image name="item4" width="30" height="30"/>
     </resources>
 </document>

@@ -1,5 +1,5 @@
 //
-//  PinchViewController.h
+//  SwipeViewController.h
 //  Gestures
 //
 //  Created by Colin on 2018-04-19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PinchViewController : UIViewController
-
-
+@interface SwipeViewController : UIViewController
 
 @end

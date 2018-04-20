@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B1506D1208942490094BBAF /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1506D0208942490094BBAF /* TapViewController.m */; };
 		3B1506D420894F5E0094BBAF /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1506D320894F5E0094BBAF /* PinchViewController.m */; };
+		3B1506D7208960460094BBAF /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1506D6208960460094BBAF /* SwipeViewController.m */; };
 		3BD9C0FB20893BCD0076273F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9C0FA20893BCD0076273F /* AppDelegate.m */; };
 		3BD9C10120893BCD0076273F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD9C0FF20893BCD0076273F /* Main.storyboard */; };
 		3BD9C10320893BCF0076273F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD9C10220893BCF0076273F /* Assets.xcassets */; };
@@ -22,6 +23,8 @@
 		3B1506D0208942490094BBAF /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
 		3B1506D220894F5E0094BBAF /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
 		3B1506D320894F5E0094BBAF /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		3B1506D5208960460094BBAF /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		3B1506D6208960460094BBAF /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 		3BD9C0F620893BCD0076273F /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD9C0F920893BCD0076273F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BD9C0FA20893BCD0076273F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 				3B1506D0208942490094BBAF /* TapViewController.m */,
 				3B1506D220894F5E0094BBAF /* PinchViewController.h */,
 				3B1506D320894F5E0094BBAF /* PinchViewController.m */,
+				3B1506D5208960460094BBAF /* SwipeViewController.h */,
+				3B1506D6208960460094BBAF /* SwipeViewController.m */,
 				3BD9C114208941B10076273F /* Supporting Files */,
 			);
 			path = Gestures;
@@ -162,6 +167,7 @@
 				3BD9C1132089419B0076273F /* PanViewController.m in Sources */,
 				3BD9C10920893BCF0076273F /* main.m in Sources */,
 				3B1506D420894F5E0094BBAF /* PinchViewController.m in Sources */,
+				3B1506D7208960460094BBAF /* SwipeViewController.m in Sources */,
 				3B1506D1208942490094BBAF /* TapViewController.m in Sources */,
 				3BD9C0FB20893BCD0076273F /* AppDelegate.m in Sources */,
 			);
